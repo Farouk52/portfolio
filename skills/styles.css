@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: url('https://th.bing.com/th/id/R.03fbb0ac811c2dd1ed316d2af7b64d9f?rik=%2f03PsI%2ba7h1qQQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1908579.jpg&ehk=x75Lmd4liGu88eGQYtBJZGvc8BHhh4ASvqSVWiMUqsw%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+
+}
+
+/* Side Navigation Bar */
+.side-nav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.side-nav a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.side-nav a:hover {
+    background-color: #575757;
+}
+
+.side-nav a.active {
+    background-color: #04AA6D;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills .card {
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.skills .card i {
+    color: #b33900;
+    margin-bottom: 15px;
+}
+
+.skills .card h5 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.skills .card:hover {
+    transform: translateY(-10px);
+}
+
+ul.list-unstyled {
+    text-align: center;
+}
+
+ul.list-unstyled li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.skills-section {
+    margin-bottom: 30px;
+}
+
+

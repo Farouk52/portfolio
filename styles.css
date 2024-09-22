@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-family: "Shadows Into Light", cursive;
+   
+    background: url('https://th.bing.com/th/id/R.03fbb0ac811c2dd1ed316d2af7b64d9f?rik=%2f03PsI%2ba7h1qQQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1908579.jpg&ehk=x75Lmd4liGu88eGQYtBJZGvc8BHhh4ASvqSVWiMUqsw%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+}
+
+.navbar {
+    padding: 1rem;
+    
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+    color: #04AA6D;
+}
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #04AA6D;
+    transform: scale(1.05);
+}
+
+.nav-link.active {
+    color: #04AA6D;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://th.bing.com/th/id/R.03fbb0ac811c2dd1ed316d2af7b64d9f?rik=%2f03PsI%2ba7h1qQQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1908579.jpg&ehk=x75Lmd4liGu88eGQYtBJZGvc8BHhh4ASvqSVWiMUqsw%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+   height: auto;
+    position: relative;
+    color: #fff;
+}
+
+
+
+.hero-content {
+    z-index: 2;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .cta {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .cta:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* about */
+.about .profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn {
+    background-color: #04AA6D;
+    border-color: #04AA6D;
+    transition: background-color 0.3s;
+}
+
+.btn-:hover {
+    background-color: #2f6d56;
+}
+
+/* Glassmorphism Effect */
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.glass-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Neumorphism Effect */
+.neumorphic-card {
+    background: #f0f0f3;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.neumorphic-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+/* Skills Section */
+.skills .card {
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.skills .card i {
+    color: #04AA6D;
+    margin-bottom: 15px;
+}
+
+.skills .card h5 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.skills .card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* Projects Section */
+.project-card {
+    overflow: hidden;
+    transition: transform 0.3s;
+    color: white;
+}
+
+.project-card img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.1), inset -3px -3px 8px rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f0f0f3;
+}
+
+.contact-form button {
+    background-color: #04AA6D;
+    border: none;
+    padding: 10px 30px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #04AA6D;
+}
+
+
+
+/* Social Icons */
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #04AA6D;
+
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2{
+    font-size: 6rem;
+}
+img{
+    height: 300px;
+}
+.skills-section {
+    margin-bottom: 30px;
+}
+
+
+
+h2, h3 {
+    color: #ecf0f1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.skills-section {
+    margin-bottom: 60px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 250px;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 3.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.skill-card:hover .icon {
+    color: #e74c3c;
+}
+
+h5 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+.skill-card:hover h5 {
+    color: #e74c3c;
+}
+
+.skills {
+    background: url('https://th.bing.com/th/id/R.03fbb0ac811c2dd1ed316d2af7b64d9f?rik=%2f03PsI%2ba7h1qQQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1908579.jpg&ehk=x75Lmd4liGu88eGQYtBJZGvc8BHhh4ASvqSVWiMUqsw%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    padding: 80px 0;
+    color: #fff;
+    position: relative;
+}
+
+.skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+
+.hero {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto; 
+    width: 100%; 
+}
